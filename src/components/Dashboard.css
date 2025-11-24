@@ -1,0 +1,118 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.dashboard-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card h1 {
+  color: #667eea;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.user-info,
+.redux-info,
+.jwt-info {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.user-info h2,
+.redux-info h2,
+.jwt-info h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.info-item {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.info-item strong {
+  color: #667eea;
+  margin-right: 10px;
+}
+
+.redux-concepts {
+  display: grid;
+  gap: 15px;
+}
+
+.concept-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border-left: 4px solid #667eea;
+}
+
+.concept-item h3 {
+  color: #667eea;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.concept-item p {
+  color: #666;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.concept-item pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.jwt-explanation {
+  color: #666;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.token-display {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  word-break: break-all;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 20px;
+}
+
+.logout-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4);
+}
+
